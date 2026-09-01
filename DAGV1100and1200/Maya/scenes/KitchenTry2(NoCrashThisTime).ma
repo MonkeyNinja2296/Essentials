@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: KitchenTry2(NoCrashThisTime).ma
-//Last modified: Tue, Sep 01, 2026 01:59:58 PM
+//Last modified: Tue, Sep 01, 2026 02:01:00 PM
 //Codeset: 1252
 requires maya "2027";
 requires "mtoa" "5.6.2";
@@ -11,7 +11,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "BCBBC341-4413-0635-770D-989CF35ABC20";
+fileInfo "UUID" "15C3989F-4528-AEFD-679D-CBBD1A025587";
 createNode transform -s -n "persp";
 	rename -uid "4853F06F-4924-9CEA-11EF-93AF74CE73A0";
 	setAttr ".v" no;
@@ -8483,8 +8483,8 @@ createNode mesh -n "pCubeShape10" -p "transform26";
 createNode transform -n "bottom";
 	rename -uid "57D7DAC6-428D-568C-9AFF-D7A72E00A986";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -0.66665956568916362 10.212494313878533 -13.080516578498234 ;
-	setAttr ".r" -type "double3" 352.79999999909421 179.19999999997717 0 ;
+	setAttr ".t" -type "double3" -7.8971051676752015 9.7342863393525647 -12.068028343377561 ;
+	setAttr ".r" -type "double3" 353.99999999908368 197.59999999998507 0 ;
 	setAttr ".rp" -type "double3" 1.1102230246251565e-16 0 0 ;
 	setAttr ".rpt" -type "double3" -2.2191205954385441e-16 1.1555579666323415e-33 -5.4234139174499827e-18 ;
 createNode camera -n "bottomShape" -p "bottom";
