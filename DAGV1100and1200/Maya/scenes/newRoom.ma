@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: newRoom.ma
-//Last modified: Tue, Sep 29, 2026 01:43:24 PM
+//Last modified: Tue, Sep 29, 2026 01:44:17 PM
 //Codeset: 1252
 file -rdi 1 -ns "newRoomCouch" -rfn "newRoomCouchRN" -op "v=0;" -typ "mayaAscii"
 		 "D:/grant/3DModling/Essentials/DAGV1100and1200/Maya//scenes/newRoomCouch.ma";
@@ -15,17 +15,17 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "B4000C92-4A1C-FAAA-4B87-1482C50F3C34";
+fileInfo "UUID" "5C7D6377-484A-6C47-8792-FEA807D08EF7";
 createNode transform -s -n "persp";
 	rename -uid "B0F646CD-4D3B-E2C8-7CD3-F3AF930430D8";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 39.217727183993041 31.84544391923448 13.489388286540404 ;
+	setAttr ".t" -type "double3" 26.301774890546739 21.284317241881222 5.8509153934370053 ;
 	setAttr ".r" -type "double3" -35.138352733743858 779.39999999998349 -3.1240627806025911e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "4CA13A0B-4BB2-EE6C-5C82-E7B2DA4E84FD";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 53.170873546144975;
+	setAttr ".coi" 34.821337081144982;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
