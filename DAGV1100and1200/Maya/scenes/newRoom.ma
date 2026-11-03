@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: newRoom.ma
-//Last modified: Mon, Nov 02, 2026 11:04:10 PM
+//Last modified: Mon, Nov 02, 2026 11:12:26 PM
 //Codeset: 1252
 file -rdi 1 -ns "newRoomCouch" -rfn "newRoomCouchRN" -op "v=0;" -typ "mayaAscii"
 		 "D:/grant/3DModling/Essentials/DAGV1100and1200/Maya//scenes/newRoomCouch.ma";
@@ -16,17 +16,17 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "F1913981-4804-0152-1FD1-9AA0C321D10C";
+fileInfo "UUID" "F2ADBBC0-49B9-E82D-2177-B4AA185527CF";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "B0F646CD-4D3B-E2C8-7CD3-F3AF930430D8";
-	setAttr ".t" -type "double3" 9.2651070041777785 17.882789982574799 15.463237851482146 ;
-	setAttr ".r" -type "double3" -34.538352689966892 1856.9999999992142 2.9198739687365619e-15 ;
+	setAttr ".t" -type "double3" 58.903891257942192 25.743649291865729 28.716114127506561 ;
+	setAttr ".r" -type "double3" -16.538352690738218 1499.4000000006372 -3.1240627806628518e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "4CA13A0B-4BB2-EE6C-5C82-E7B2DA4E84FD";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 25.557324540434021;
+	setAttr ".coi" 73.635335213917003;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -67096,7 +67096,7 @@ createNode mesh -n "Controller3Shape" -p "Controller3";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
 createNode fosterParent -n "newRoomCouchRNfosterParent1";
-	rename -uid "0498B1B2-4F55-2CED-DD63-BF940505B1A6";
+	rename -uid "A3B856C2-4B0A-E53B-056A-829262079AB0";
 createNode mesh -n "newRoomCouch:polySurfaceShape1" -p "newRoomCouchRNfosterParent1";
 	rename -uid "4DE883BD-4419-77AA-B7E8-3F8D89BD02CB";
 	setAttr -k off ".v";
